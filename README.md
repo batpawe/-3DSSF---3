@@ -30,7 +30,7 @@ In subtask 1 our goal was to implement TCP and Tr-ICP algorithm and use them on 
 | -0.09983342 |  0.47703041 |  0.8731983 | 0.01 | 
 |      0.     |      0.     |     0.     |  1.  | 
 
-![Set 1](1.png?raw=true "Title")
+![Set 1](1.jpg?raw=true "Title")
 
 **Results TC-ICP**
 |                |                 |                 |                 |
@@ -64,7 +64,7 @@ In subtask 1 our goal was to implement TCP and Tr-ICP algorithm and use them on 
 | -0.47942554 | 0.04386085 |  0.87648581 | 0.001 |
 |      0.     |     0.     |      0.     |   1.  |
 
-![Set 2](2.png?raw=true "Title")
+![Set 2](2.jpg?raw=true "Title")
 
 **Results TC-ICP**
 |             |             |             |             |
@@ -98,7 +98,7 @@ In subtask 1 our goal was to implement TCP and Tr-ICP algorithm and use them on 
 |     0.     |      0.     | 1. |  0.  |
 |     0.     |      0.     | 0. |  1.  |
 
-![Set 3](3.png?raw=true "Title")
+![Set 3](3.jpg?raw=true "Title")
 
 **Results TC-ICP**
 |            |             |             |             |
@@ -132,7 +132,7 @@ In subtask 1 our goal was to implement TCP and Tr-ICP algorithm and use them on 
 | -0.09983342 | 0.09933467 |  0.99003329 | 0. |
 |      0.     |     0.     |      0.     | 1. |
 
-![Set 4](4.png?raw=true "Title")
+![Set 4](4.jpg?raw=true "Title")
 
 **Results TC-ICP**
 |                 |                |                 |                 |
@@ -166,7 +166,7 @@ In subtask 1 our goal was to implement TCP and Tr-ICP algorithm and use them on 
 |  0 |  0 |  1 |  0  |
 | 0. | 0. | 0. |  1. |
 
-![Set 5](5.png?raw=true "Title")
+![Set 5](5.jpg?raw=true "Title")
 
 **Results TC-ICP**
 |                |                 |                 |                 |
