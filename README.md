@@ -53,8 +53,8 @@ Image order: Original, Transformed, Noised, TRICP, ICP
 **Comparison**
 |  Algo | Tolerance | Time | MSE translation | Angle error | Convergence |
 |:-----:|:---------:|:----:|:---------------:|:-----------:|:-----------:|
-| TRICP |   1e-13   |  63  |     19.30323    |  3.43774677 |     128     |
-|  ICP  |   1e-13   |  47  |     40.30373    |  -5.7295779 |     130     |
+| TRICP |   1e-13   |  63  |     19.30323    |  1.1928 |     128     |
+|  ICP  |   1e-13   |  47  |     40.30373    |  0.8162 |     130     |
 
 ### Euler [0.01 0.5 0.05], Translation [0.05 0.08 0.001]
 
@@ -87,8 +87,8 @@ Image order: Original, Transformed, Noised, TRICP, ICP
 **Comparison**
 |  Algo | Tolerance | Time | MSE translation | Angle error | Convergence |
 |:-----:|:---------:|:----:|:---------------:|:-----------:|:-----------:|
-| TRICP |   1e-13   |  398 |     13.00569    |  16.0428183 |     995     |
-|  ICP  |   1e-13   |  70  |     20.58229    |  34.3774677 |     256     |
+| TRICP |   1e-13   |  398 |     13.00569    |  0.7232 |     995     |
+|  ICP  |   1e-13   |  70  |     20.58229    |  0.3304 |     256     |
 
 ### Euler [0.1 0 0], Translation [0.05 0.08 0]
 
@@ -121,8 +121,8 @@ Image order: Original, Transformed, Noised, TRICP, ICP
 **Comparison**
 |  Algo | Tolerance | Time | MSE translation | Angle error | Convergence |
 |:-----:|:---------:|:----:|:---------------:|:-----------:|:-----------:|
-| TRICP |   1e-13   |  175 |     10.27430    |  34.9504255 |     423     |
-|  ICP  |   1e-13   |  94  |     22.07217    |  35.5233833 |     321     |
+| TRICP |   1e-13   |  175 |     10.27430    |  0.3058 |     423     |
+|  ICP  |   1e-13   |  94  |     22.07217    |  0.4141 |     321     |
 
 ### Euler [0 0.1 0.1], Translation [0 0 0]
 
@@ -155,8 +155,8 @@ Image order: Original, Transformed, Noised, TRICP, ICP
 **Comparison**
 |  Algo | Tolerance | Time | MSE translation | Angle error | Convergence |
 |:-----:|:---------:|:----:|:---------------:|:-----------:|:-----------:|
-| TRICP |   1e-13   |  379 |     0.00000    |  48.7014126 |     969     |
-|  ICP  |   1e-13   |  61  |     22.03967    |  31.5126787 |     166     |   |
+| TRICP |   1e-13   |  379 |     0.00000    |  0.000586 |     969     |
+|  ICP  |   1e-13   |  61  |     22.03967    |  0.3984 |     166     |   |
 
 ### Euler [0 0 0], Translation [0.6 0.3 0]
 
@@ -189,5 +189,5 @@ Image order: Original, Transformed, Noised, TRICP, ICP
 **Comparison**
 |  Algo | Tolerance | Time | MSE translation | Angle error | Convergence |
 |:-----:|:---------:|:----:|:---------------:|:-----------:|:-----------:|
-| TRICP |   1e-13   |  77  |     0.00003     | 0.515662016 |     199     |
-|  ICP  |   1e-13   |  55  |     21.80873    |  34.9504255 |     164     |
+| TRICP |   1e-13   |  77  |     0.00003     | 0.000379 |     199     |
+|  ICP  |   1e-13   |  55  |     21.80873    |  0.3931 |     164     |
