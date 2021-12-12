@@ -191,3 +191,7 @@ Image order: Original, Transformed, Noised, TRICP, ICP
 |:-----:|:---------:|:----:|:---------------:|:-----------:|:-----------:|
 | TRICP |   1e-13   |  77  |     0.00003     | 0.000379 |     199     |
 |  ICP  |   1e-13   |  55  |     21.80873    |  0.3931 |     164     |
+
+
+## Conclusion
+TRICP tends to have better results in general but ICP behaves better in case of very extreme transformations. The other advantage of TRICP is that it works faster but sometimes needs more iterations to converge. ICP converges faster but it does not give as good results as TRICP.
