@@ -193,7 +193,7 @@ Image order: Original, Transformed, Noised, TRICP, ICP
 |  ICP  |   1e-13   |  55  |     21.80873    |  0.3931 |     164     |
 
 
-## Recostruction attemp
+## Recostruction attempt
 ![Reconstruction](reconstruction.png?raw=true "Title")
 
 ## Conclusion
