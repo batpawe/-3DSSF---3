@@ -17,7 +17,9 @@ In order to run the code you must run python3 main.py and get fountain_a.ply and
 
 ## Subtask 1 & Subtask 2
 
-In subtask 1 our goal was to implement TCP and Tr-ICP algorithm and use them on 2 related point clouds. In the subtask 2 our goal was to interpret and evaluate result of running both algorithms for different parameters.
+In subtask 1 our goal was to implement ICP and Tr-ICP algorithm and use them on 2 related point clouds. In the subtask 2 our goal was to interpret and evaluate result of running both algorithms for different parameters.
+
+Image order: Original, Transformed, Noised, TRICP, ICP
 
 
 ### Euler [0.1 0.1 0.5], Translation [0.02 0.05 0.01]
@@ -51,7 +53,7 @@ In subtask 1 our goal was to implement TCP and Tr-ICP algorithm and use them on 
 **Comparison**
 |  Algo | Tolerance | Time | MSE translation | Angle error | Convergence |
 |:-----:|:---------:|:----:|:---------------:|:-----------:|:-----------:|
-| TRICP |   1e-13   |  63  |     19.13567    |  3.43774677 |     128     |
+| TRICP |   1e-13   |  63  |     19.30323    |  3.43774677 |     128     |
 |  ICP  |   1e-13   |  47  |     40.30373    |  -5.7295779 |     130     |
 
 ### Euler [0.01 0.5 0.05], Translation [0.05 0.08 0.001]
@@ -153,7 +155,7 @@ In subtask 1 our goal was to implement TCP and Tr-ICP algorithm and use them on 
 **Comparison**
 |  Algo | Tolerance | Time | MSE translation | Angle error | Convergence |
 |:-----:|:---------:|:----:|:---------------:|:-----------:|:-----------:|
-| TRICP |   1e-13   |  379 |     43.12667    |  48.7014126 |     969     |
+| TRICP |   1e-13   |  379 |     0.00000    |  48.7014126 |     969     |
 |  ICP  |   1e-13   |  61  |     22.03967    |  31.5126787 |     166     |   |
 
 ### Euler [0 0 0], Translation [0.6 0.3 0]
