@@ -215,9 +215,27 @@ def doAnalysis(pcd_1, pcd_2, euler_vector, translation_vector, noise_mu, noise_s
     print('\n')
 
 
-doAnalysis('fountain_a.ply', 'fountain_b.ply',
-           np.array([0.1, 0.1, 0.5]),
-           np.array([0.02, 0.05, 0.01]),
-           0.002,
-           0.01,
-           0.0000000000001)
+# doAnalysis('fountain_a.ply', 'fountain_b.ply',
+#            np.array([0, 0, 0]),
+#            np.array([0.6, 0.3, 0]),
+#            0.02,
+#            0.01,
+#            0.0000000000001)
+
+# list_of_files = ['1.ply', '2.ply', '3.ply', '4.ply', '5.ply', '6.ply']
+
+def reconstruct(list_of_files):
+    base_pcd = o3d.io.read_point_cloud(list_of_files[0])
+    for idx in range(1, len(list_of_files)):
+        print(idx, len(list_of_files))
+        curr_pcd = o3d.io.read_point_cloud(list_of_files[idx])
+        np_pcd_a = np.asarray(base_pcd.points)
+        np_pcd_b = np.asarray(curr_pcd.points)
+        transformation_matrix, _ = tricp(np_pcd_a, np_pcd_b, tolerance=0.0001)
+        base_pcd = curr_pcd + base_pcd.transform(transformation_matrix)
+        if idx == 5:
+            o3d.visualization.draw_geometries([base_pcd])
+    o3d.visualization.draw_geometries([base_pcd])
+
+
+# reconstruct(list_of_files)
