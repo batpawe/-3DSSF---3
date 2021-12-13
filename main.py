@@ -34,7 +34,6 @@ def nearest_neighbor_kd_tree(src, dst):
     return distances.ravel(), indices.ravel()
 
 
-# https://github.com/ClayFlannigan/icp/blob/master/icp.py
 def icp(pcd_a, pcd_b, max_iterations=2000, tolerance=0.00001):
     src = np.ones((pcd_a.shape[1] + 1, pcd_a.shape[0]))
     dst = np.ones((pcd_a.shape[1] + 1, pcd_b.shape[0]))
